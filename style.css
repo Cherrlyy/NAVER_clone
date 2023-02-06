@@ -1,0 +1,50 @@
+div#center-header-contents {
+    margin: 0 auto;
+    width: 1130px;
+    /* px: 픽셀로 상대적인 단위 - 모니터 크기가 몇 픽셀인지 알아야 */
+}
+
+div#header-search > h1 {
+    width: 210px;
+    height: 46px;
+    display: inline-block;
+    background-image: url(./images/NAVER_image_spright.png);
+    background-position: 0px 0px;
+    text-indent: 100%;
+    /* 글자 들여쓰기 */
+    overflow: hidden;
+    /* 나가는 부분 안 보이게 */
+
+}
+/* 자식 : > 자손 : 걍 한칸 띄어쓰기 */
+
+a{
+}
+.blind  {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0,0,0,0);
+}
+/* display:none; 의 경우 단순히 문서 작성(기록) 용도임 */
+
+
+
+#header-search fieldset {
+    width: 520px;
+    display: inline;
+}
+/* 선택자 / 속성 암기 */
+
+#header-search {
+    display: inline;
+}
+
+#menu-container {
+    text-align: right;
+}
+#menu-container span {
+    display: inline-block;
+}
+/* block은 margin을 채우는 것. inline -> 마진 없앰 inline-block은 margin 없애고 block처럼*/
+
+
